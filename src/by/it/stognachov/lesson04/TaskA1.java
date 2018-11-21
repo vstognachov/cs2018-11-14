@@ -26,15 +26,12 @@ package by.it.stognachov.lesson04;
  */
 public class TaskA1 {
     public static void main(String[] args) {
-        for(int k=1;k<=10;k++){
-            if(k!=3 && k!=9){
+        for (int k = 1; k <= 10; k++) {
+            if (k != 3 && k != 9) {
                 System.out.println("Я изучаю программирование.");
-            }
-            else{
+            } else {
                 System.out.println("Меня интересует высокая зарплата!");
             }
         }
     }
-
-
 }
