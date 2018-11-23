@@ -25,7 +25,19 @@ package by.it.stognachov.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int sum = 0;
+        for (int k = 1; ; k++) {
+            sum += k;
+            System.out.print(sum + ",");
+            if (number-sum<=k) {
+                break;
+            }
+        }
+    }
 }
