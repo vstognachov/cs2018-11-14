@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson04;
+package by.it.piskur.lesson04;
 
 import org.junit.Test;
 
@@ -113,7 +113,7 @@ public class Testing04 {
                         "За месяц 14 начислено $0.0");
         run("444").include(
                 "За месяц 0 начислено $0.0\n" +
-                        "За январь начислено $666.0").exclude("февраль");
+                        "За январь начислено $666.0").exclude("март");
         run("666").include(
                 "За месяц 0 начислено $0.0\n" +
                         "За январь начислено $999.0\n" +
